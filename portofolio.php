@@ -3,6 +3,41 @@
 
 <head>
   <title>My Portofolio</title>
+  {
+  "@context": "https://schema.org",
+  "@type": "person",
+  "name": "Putri Anggriyani",
+  "additionalType": "https://schema.org/UniversityStudent",
+  "identifier": {
+  	"@type": "PropertyValue",
+    "name": "NIM",
+    "value": "23050645"
+    },
+    "address": {
+    "@type": "postalAddress",
+    "addresslocality": "Kabupaten Tangerang",
+    "addressRegion": "Provinsi Banten",
+    "postalCode": "15720",
+    "addressCountry": "ID"
+	},
+    "affiliation": {
+    "@type": "EducationalOrganization",
+    "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jl. Aria Santika No.40A, RT.005/RW.011, Margasari, Kec. Karawaci ",
+    "addressLocality": "Kota Tangerang",
+    "addressRegion": "Provinsi Banten", 
+    "postalCode": "15114",
+    "addressCountry": "ID"
+    },
+    "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "(021) 55726558",
+    "contactType": "University Student Service",
+    "availableLanguage": "Bahasa Indonesia"
+    }
+    }
+    }
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
